@@ -16,7 +16,7 @@ from src.config import GEMINI_API_KEY
 
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.0-flash:generateContent"
+    "gemini-3.5-flash-lite:generateContent"
 )
 
 # 找不到LLM結果，或發生錯誤時的預設空結構
